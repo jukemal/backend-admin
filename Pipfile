@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+watchdog = "*"
+autopep8 = "*"
+
+[packages]
+flask = "*"
+flask-admin = "*"
+flask-sqlalchemy = "*"
+flask-security = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+flask-cors = "*"
+simplejson = "*"
+bcrypt = "*"
+
+[requires]
+python_version = "2.7"
